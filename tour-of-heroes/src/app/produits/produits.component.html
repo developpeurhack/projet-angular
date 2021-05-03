@@ -2,10 +2,10 @@
 <div class="container">
   <div class="card shadow mb-4">
     <div class="card-body">
-      <table class="table table-striped">
+      <table class="table table-striped bg-info">
         <thead>
           <tr>
-            Liste des Produits:
+            <i>Liste des Produits:</i>
           </tr>
 
         <tr>
@@ -19,7 +19,7 @@
             <td>{{produit.idProduit}}</td>
             <td>{{produit.nomProduit}}</td>
             <td>{{produit.prixProduit}}</td>
-            <td>{{produit.dateCreation | date : 'dd/mm/yyyy'}}</td>
+          <td>{{produit.dateCreation|date:'dd/MM/yyyy'}}</td>
 
 
         </tr>
